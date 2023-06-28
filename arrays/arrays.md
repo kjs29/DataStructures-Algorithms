@@ -25,15 +25,15 @@ let startOneToMillion = Date.now();
 oneToMillion[499999];
 let endOneToMillion = Date.now();
 
-console.log("Accessing 3rd element in cars takes "+(endCars-startCars)+"ms");
-console.log("Accessing 500000th element in cars takes "+(endOneToMillion-startOneToMillion)+"ms");
+console.log("Accessing 3rd element takes "+(endCars-startCars)+"ms");
+console.log("Accessing 500000th element takes "+(endOneToMillion-startOneToMillion)+"ms");
 ```
 
 Result
 
 ```
-Accessing 3rd element in cars takes 0ms
-Accessing 500000th element in cars takes 0ms
+Accessing 3rd element takes 0ms
+Accessing 500000th element takes 0ms
 ```
 
 # Dynamic arrays
@@ -114,7 +114,7 @@ Unshift when n is 100000 takes 1356ms
 
 We can see that as n increases, `push()`'s runtime does not increase so much, but `unshift()`'s runtime will increase a lot.
 
-Conclusion: 
+### Conclusion
 
 `push()` takes O(1) operations.
 
