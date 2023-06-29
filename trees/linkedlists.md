@@ -1,0 +1,71 @@
+# What is a linked list?
+
+A linked-list is a linear data structure where elements are not stored at a contiguous memory location.
+
+(Arrays are stored at a contiguous memory location)
+
+Linked lists have two attributes, data and next.
+
+# Representation of single linked lists
+
+In python code, 
+
+```py
+class Node:
+    def __init__(self, data, next = None):
+        self.data = data
+        self.next = next
+```
+
+We have a constructor that have data, and next attributes.
+
+data attribute contains its data, and next attribute contains the next node.
+
+We can create nodes like the code below.
+
+```py
+nodeA = Node(10)
+nodeB = Node(5)
+nodeC = Node(7)
+```
+
+We just created three nodes, nodeA, nodeB, nodeC.
+
+Now we can connect nodeA to nodeB, and nodeB to nodeC.
+
+```py
+nodeA.next = nodeB
+nodeB.next = nodeC
+```
+
+# Create a countNode method.
+
+
+```py
+class Node:
+    def __init__(self, data, next = None):
+        self.data = data
+        self.next = next
+
+    def countNodes(head):
+        count = 1
+        if head.next == None:
+            return 1
+        while head.next != None:
+            head = head.next
+            count += 1
+        return count
+    
+nodeA = Node(4)
+nodeB = Node(2)
+nodeC = Node(3)
+nodeD = Node(10)
+nodeE = Node(2)
+
+nodeA.next = nodeB
+nodeB.next = nodeC
+nodeC.next = nodeD
+nodeD.next = nodeE
+
+print(Node.countNodes(nodeC))       // 3
+```
