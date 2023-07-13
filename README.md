@@ -1,5 +1,13 @@
 # This repository consists of my notes about DataStructures & Algorithms
 
-`arrays and hashing`
+`arrays`
+
+`hashing`
+
+`LinkedLists`
+
+`stacks`
+
+`trees`
 
 `today I learned`
