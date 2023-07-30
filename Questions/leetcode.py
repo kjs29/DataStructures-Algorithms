@@ -5,6 +5,7 @@ leetcode_questions_solved[1089] = "Duplicate Zeros"
 leetcode_questions_solved[88] = "Merge sorted Array"
 leetcode_questions_solved[283] = "Move Zeros"
 leetcode_questions_solved[167] = "Two Sum II - Input Array Is Sorted"
+leetcode_questions_solved[707] = "Design Linked List"
 
 
 leetcode_questions_not_solved = {}
@@ -18,6 +19,7 @@ leetcode_questions_requires_more_practice[27] = leetcode_questions_solved[27]
 leetcode_questions_requires_more_practice[26] = leetcode_questions_solved[26]
 leetcode_questions_requires_more_practice[1089] = leetcode_questions_solved[1089]
 leetcode_questions_requires_more_practice[88] = leetcode_questions_solved[88]
+leetcode_questions_requires_more_practice[707] = leetcode_questions_solved[707]
 
 print(f"\nleetcode_questions_solved : {leetcode_questions_solved}")
 print(f"\nleetcode_questions_not_solved : {leetcode_questions_not_solved}")
