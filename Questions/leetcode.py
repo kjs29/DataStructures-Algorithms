@@ -17,6 +17,7 @@ leetcode_questions_not_solved.update({349:"Intersection of two arrays"})
 leetcode_questions_not_solved.update({15:"Three Sum"})
 leetcode_questions_not_solved.update({1290:"Convert Binary Number in a Linked List to Integer"})
 leetcode_questions_not_solved.update({21:"Merge Two Sorted Lists"})
+leetcode_questions_not_solved.update({34:"Find First and Last Position of Element in Sorted Array"})
 
 
 
