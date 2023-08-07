@@ -9,6 +9,9 @@ leetcode_questions_solved[707] = "Design Linked List"
 leetcode_questions_solved[876] = "Middle of the Linked List"
 leetcode_questions_solved[141] = "Linked List Cycle"
 leetcode_questions_solved[206] = "Reverse Linked List"
+leetcode_questions_solved[704] = "Binary Search"
+leetcode_questions_solved[11] = "Container with most water"
+
 
 
 leetcode_questions_not_solved = {}
@@ -20,7 +23,6 @@ leetcode_questions_not_solved.update({21:"Merge Two Sorted Lists"})
 leetcode_questions_not_solved.update({34:"Find First and Last Position of Element in Sorted Array"})
 
 
-
 leetcode_questions_requires_more_practice = {}
 leetcode_questions_requires_more_practice[27] = leetcode_questions_solved[27]
 leetcode_questions_requires_more_practice[26] = leetcode_questions_solved[26]
@@ -28,6 +30,7 @@ leetcode_questions_requires_more_practice[1089] = leetcode_questions_solved[1089
 leetcode_questions_requires_more_practice[88] = leetcode_questions_solved[88]
 leetcode_questions_requires_more_practice[707] = leetcode_questions_solved[707]
 leetcode_questions_requires_more_practice[876] = leetcode_questions_solved[876]
+leetcode_questions_requires_more_practice[704] = leetcode_questions_solved[704]
 
 print(f"\nleetcode_questions_solved : {leetcode_questions_solved}")
 print(f"\nleetcode_questions_not_solved : {leetcode_questions_not_solved}")
