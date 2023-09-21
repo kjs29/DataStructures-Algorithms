@@ -19,6 +19,7 @@ We want to move disk1, disk2, disk3 to Tower3, so it looks like the following.
 ```
 
 Rules: 
+
     - only the top disk in each tower can move
 
     - only one disk can move at a time
