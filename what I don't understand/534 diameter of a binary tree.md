@@ -21,3 +21,16 @@ class Solution:
         self.dfs(root)
         return self.curr_diameter
 ```
+
+In `dfs()`, I think `left` and `right` should be 
+
+```py
+left = self.dfs(node.left) + 1
+right = self.dfs(node.right) + 1
+```
+
+and `return` statement should be 
+
+```py
+return max(left,right)
+```
