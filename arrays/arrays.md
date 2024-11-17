@@ -51,12 +51,12 @@ arrayList.add(5);       // autoboxing, 2(int) converts to Integer type.
 
 # Accessing an element
 
-**JavaScript**
 
 Array indexing takes O(1) regardless of the size of an array.
 
 Let's test it.
 
+<i>Javascript example</i>
 ```js
 let cars = ["tesla","bmw","kia","ford"];
 let oneToMillion = [];
@@ -177,9 +177,7 @@ lst.insert(1, 2)        # insert 2 at index 1
 print(lst)      # [1,2,3,5]
 ```
 
-# Deleting an element
-
-<em>python example</em>
+# Deleting an element in Python
 
 - Removing an element by index
 
@@ -201,7 +199,7 @@ print(lst)      # [1,2,3,5]
         ```py
         b = [2,4,6,8,10]
 
-        b.pop(3)        # removing an element at 3rd index
+        b.pop(3)        # removing an element at index position 3
 
         print(b)        # [2,4,6,10]
         ```
@@ -220,12 +218,24 @@ print(b)        # [1,5,7,9]
 
 `remove()` Time complexity: O(n)
 
-# Deleting 
+# Conclusion
 
-### Conclusion
+# Array
 
-`push()` takes O(1) operations.
+- Accessing an element: O(1) - Good!
 
-`unshift()` takes O(n) operations.[^1]
+- Searching for an element:
 
-[^1]: `shift()` takes O(n) as well.
+    - Linear Search: O(n)
+
+- Inserting an element:
+
+    - Inserting at the end: O(1)
+
+    - anywhere else: O(n)
+
+- Deleting an element: 
+
+    - Deleting at the end: O(1)
+
+    - anywhere else: O(n)
